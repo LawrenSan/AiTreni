@@ -129,8 +129,8 @@ if departures_list:
 end_time = datetime.now()
 duration = end_time - start_time
 
-print(f"🏁 Completato in {duration}")
-print(f"📊 Errori: {len(error_list)} stazioni")
+print(f"Completato in {duration}")
+print(f"Errori: {len(error_list)} stazioni")
 
 # Salva anche backup locale degli errori (opzionale)
 if error_list:
