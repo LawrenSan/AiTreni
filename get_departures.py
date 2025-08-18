@@ -8,9 +8,8 @@ import time
 import os
 
 # Configurazione Supabase
-SUPABASE_URL = 'https://znvoqrkcslicihrnjxym.supabase.co'  # Project URL
-SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inpudm9xcmtjc2xpY2locm5qeHltIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM0Njc1MTAsImV4cCI6MjA2OTA0MzUxMH0.C7BzqwA4aHolWVMk2uOTqPByryWTaDdjCIjnFPQhgj4'
-
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
 url_viaggiatreno = "http://www.viaggiatreno.it/infomobilita/resteasy/viaggiatreno/"
 
